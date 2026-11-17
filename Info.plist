@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleName</key><string>Mac ARJ</string>
+<key>CFBundleDisplayName</key><string>Mac ARJ</string>
+<key>CFBundleIdentifier</key><string>kr.a11ylab.mac-arj</string>
+<key>CFBundleExecutable</key><string>Mac ARJ</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSUIElement</key><true/>
+<key>NSHighResolutionCapable</key><true/>
+<key>CFBundleDocumentTypes</key><array><dict>
+<key>CFBundleTypeName</key><string>ARJ archive</string>
+<key>CFBundleTypeRole</key><string>Viewer</string>
+<key>LSHandlerRank</key><string>Alternate</string>
+<key>LSItemContentTypes</key><array><string>cx.c3.arj-archive</string></array>
+</dict></array>
+<key>UTImportedTypeDeclarations</key><array><dict>
+<key>UTTypeIdentifier</key><string>cx.c3.arj-archive</string>
+<key>UTTypeDescription</key><string>ARJ archive</string>
+<key>UTTypeConformsTo</key><array><string>public.archive</string></array>
+<key>UTTypeTagSpecification</key><dict>
+<key>public.filename-extension</key><array><string>arj</string></array>
+<key>public.mime-type</key><string>application/x-arj</string>
+</dict></dict></array>
+</dict></plist>
