@@ -1,4 +1,6 @@
 #!/bin/sh
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Copyright (C) 2026 Mac ARJ contributors.
 set -eu
 cd "$(dirname "$0")"
 APP='dist/Mac ARJ.app'

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Copyright (C) 2026 Mac ARJ contributors.
 """Synthetic-only integration tests: python3 tests/test.py [-v].
 
 No real archives are discovered or opened. All fixture files, extraction output,

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Copyright (C) 2026 Mac ARJ contributors.
 """Generate tiny, deterministic, stored-method ARJ fixtures using only stdlib.
 
 Provenance: these bytes are generated from scratch, not copied from a user's
